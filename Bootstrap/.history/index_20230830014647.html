@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Registrar PlayStation</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/Formularios.css">
+    <script type="text/javascript" src="js/controllerPlayStation.js"></script>
+</head>
+<body>
+    <legend class="text-center header">Registro de PlayStation</legend>
+    <div class="container registro-playstation">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                    <div class="col-md-6">
+                        <input id="noSerie" name="noSerie" type="text" placeholder="Introduce el número de serie de la consola" class="form-control">
+                    </div>
+                </div>
+                <br>
+                <div class="form-group">
+                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                    <div class="col-md-6">
+                        <input id="nombre" name="nombre" type="text" placeholder="Nombre de la consola" class="form-control">
+                    </div>
+                </div>
+                <br>
+                <div class="form-group">
+                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                    <div class="col-md-6">
+                        <input id="paisDeOrigen" name="paisDeOrigen" type="text" placeholder="Introduce el país de origen" class="form-control">
+                    </div>
+                </div>
+                <br>
+                <div class="form-group">
+                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                    <div class="col-md-6">
+                        <input id="year" name="year" type="text" placeholder="Introduce el año de la consola" class="form-control">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <tr>
+        <td>9</td>
+        <td>Alon</td>
+        <td>5</td>  
+     </tr>
+     <tr>
+        <td>6</td>
+        <td>Tala</td>
+        <td>5</td>  
+     </tr>
+    <br>
+    <br>
+    <div class="form-group">
+        <div class="col-md-12 text-center">
+            <button type="submit" onclick="registrarPlayStation()" class="btn btn-primary btn-lg">Registrar</button>
+            <button type="submit" class="btn btn-primary btn-lg">Cancelar</button>
+        </div>
+    </div>
+</body>
+
+</html>
